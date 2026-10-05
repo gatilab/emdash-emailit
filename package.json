@@ -1,0 +1,54 @@
+{
+	"name": "@gatilab/emdash-emailit",
+	"version": "1.0.0",
+	"description": "Emailit email provider for EmDash: delivers EmDash's own mail (invites, magic-link sign-in, account recovery) and plugin email through the Emailit API, with the API key, sender and Reply-To editable in the admin.",
+	"type": "module",
+	"main": "./src/index.ts",
+	"types": "./src/index.ts",
+	"exports": {
+		".": "./src/index.ts",
+		"./package.json": "./package.json"
+	},
+	"files": [
+		"src",
+		"README.md",
+		"CHANGELOG.md",
+		"LICENSE"
+	],
+	"keywords": [
+		"emdash",
+		"emdash-plugin",
+		"email",
+		"emailit",
+		"email-provider",
+		"transactional-email"
+	],
+	"author": "Gatilab (https://gatilab.com)",
+	"license": "GPL-2.0-or-later",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/gatilab/emdash-emailit.git"
+	},
+	"homepage": "https://github.com/gatilab/emdash-emailit#readme",
+	"bugs": {
+		"url": "https://github.com/gatilab/emdash-emailit/issues"
+	},
+	"scripts": {
+		"test": "vitest run",
+		"typecheck": "tsc --noEmit",
+		"prepublishOnly": "pnpm typecheck && pnpm test"
+	},
+	"peerDependencies": {
+		"emdash": "^1.1.0"
+	},
+	"devDependencies": {
+		"@types/node": "^24.0.0",
+		"emdash": "^1.1.0",
+		"typescript": "^6.0.3",
+		"vitest": "4.1.10"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"packageManager": "pnpm@11.9.0+sha512.bd682d5d03fe525ef7c9fd6780c6884d1e756ac4c9c9fe00c538782824310dcf90e3ddc4f53835f06dfaebd5085e41855e0bcbb3b60de2ac5bbab89e5036f03b"
+}
