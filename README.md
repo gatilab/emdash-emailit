@@ -49,4 +49,4 @@ To check delivery, use **Settings › Email › Send test email** in the admin. 
 
 ## License
 
-GPL-2.0-or-later.
+MIT. See [LICENSE](./LICENSE).

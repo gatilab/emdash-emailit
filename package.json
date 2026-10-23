@@ -24,7 +24,7 @@
 		"transactional-email"
 	],
 	"author": "Gatilab (https://gatilab.com)",
-	"license": "GPL-2.0-or-later",
+	"license": "MIT",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/gatilab/emdash-emailit.git"
