@@ -21,7 +21,7 @@ import { createDeliver, type EmailitOptions } from "./deliver.js";
 import { SETTINGS_SCHEMA } from "./settings.js";
 
 export const PLUGIN_ID = "emailit-email";
-export const PLUGIN_VERSION = "1.0.0";
+export const PLUGIN_VERSION = "1.0.1";
 export const PACKAGE_NAME = "@gatilab/emdash-emailit";
 const CAPABILITIES = ["hooks.email-transport:register"] as const;
 

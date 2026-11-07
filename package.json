@@ -1,6 +1,6 @@
 {
 	"name": "@gatilab/emdash-emailit",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Emailit email provider for EmDash: delivers EmDash's own mail (invites, magic-link sign-in, account recovery) and plugin email through the Emailit API, with the API key, sender and Reply-To editable in the admin.",
 	"type": "module",
 	"main": "./src/index.ts",
