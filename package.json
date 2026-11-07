@@ -43,7 +43,7 @@
 	},
 	"devDependencies": {
 		"@types/node": "^24.0.0",
-		"emdash": "^1.1.0",
+		"emdash": "^1.4.0",
 		"typescript": "^6.0.3",
 		"vitest": "4.1.10"
 	},
